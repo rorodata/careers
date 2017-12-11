@@ -22,7 +22,7 @@ Bonus: If you have time, tell us how would you have designed this page different
 
 ## **Problem 3: Build a Component Vue/Polymer**
 
-Build a vue/polymer component with name openlibrary-book-card to display book cover and book details from Open Libary. It should display a card something like [3], and you can use the Open Library API [4] [5].
+Build a vue/polymer component with name openlibrary-book-card to display book cover and book details from Open Libary. It should display a card something like [3], and you can use the Open Library API [4],[5].
 
 Inside HTML, you should be to get that just by the following snippet. 
 
