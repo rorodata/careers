@@ -3,6 +3,7 @@
 ### More details [here](https://angel.co/rorodata/jobs/283569-devops-engineer)
 
 **Problem: Build a web dashboard for docker**
+
 Write a web application in *Python* that uses the docker API to find out the current running Docker containers and available images. The web app should have the following pages:
 - one page to list all the active containers
 - one page to list all available images
