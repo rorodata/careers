@@ -2,7 +2,7 @@
 ### Write back to us with your solution repo raghav [at] rorodata [dot] com
 ##### More details [here](https://angel.co/rorodata/jobs/283569-devops-engineer)
 
-**## Problem: Build a web dashboard for docker**
+## **Problem: Build a web dashboard for docker**
 
 Write a web application in *Python* that uses the docker API to find out the current running Docker containers and available images. The web app should have the following pages:
 - one page to list all the active containers
