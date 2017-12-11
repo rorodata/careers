@@ -8,7 +8,8 @@ Write a function nearly_equal to test whether two strings are nearly equal. Two 
 ```>>> nearly_equal('python', 'perl') False
 >>> nearly_equal('perl', 'pearl') True
 >>> nearly_equal('python', 'jython') True
->>> nearly_equal('man', 'woman') False```
+>>> nearly_equal('man', 'woman') False
+```
 
 ## **Problem 2**
 
@@ -18,4 +19,5 @@ Write a program split.py that splits a large file into multiple smaller files. T
 writing files/100-part1.txt
 writing files/100-part2.txt
 writing files/100-part3.txt 
-writing files/100-part4.txt```
+writing files/100-part4.txt
+```
