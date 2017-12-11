@@ -31,7 +31,4 @@ Inside HTML, you should be to get that just by the following snippet.
 Look at [6] for some good example of polymer components.
 
 
-[3]: http://anandology.com/tmp/ol-card-sample.png
-[4]: https://openlibrary.org/dev/docs/api/books
-[5]: https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&details=true 
-[6]: https://github.com/ds82/polymer-github-card
+[3]: http://anandology.com/tmp/ol-card-sample.png [4]: https://openlibrary.org/dev/docs/api/books [5]: https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&details=true [6]: https://github.com/ds82/polymer-github-card
