@@ -1,6 +1,6 @@
 # Problem Set for Devops
 ### Write back to us with your solution repo raghav [at] rorodata [dot] com
-### More details [here](https://angel.co/rorodata/jobs/283569-devops-engineer)
+##### More details [here](https://angel.co/rorodata/jobs/283569-devops-engineer)
 
 **Problem: Build a web dashboard for docker**
 
