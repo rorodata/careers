@@ -1,6 +1,6 @@
-# Problem Set for Devops
+# Problem Set for JS Engineer Intern
 ### Solve any one problem and write back to us with your solution repo raghav [at] rorodata [dot] com
-##### More details [here](https://angel.co/rorodata/jobs/283569-devops-engineer)
+##### More details [here](https://angel.co/rorodata/jobs/234424-javascript-frontend-intern)
 
 ## **Problem 1: Reimagine Github User Profile**
 
