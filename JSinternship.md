@@ -22,15 +22,16 @@ Bonus: If you have time, tell us how would you have designed this page different
 
 ## **Problem 3: Build a Component Vue/Polymer**
 
-Build a vue/polymer component with name openlibrary-book-card to display book cover and book details from Open Libary. It should display a card something like [1], and you can use the Open Library API[2][3].
+Build a vue/polymer component with name openlibrary-book-card to display book cover and book details from Open Libary. It should display a card something like [3], and you can use the Open Library API[4][5].
 
 Inside HTML, you should be to get that just by the following snippet. 
 
 <openlibrary-book-card isbn="0451526538"></openlibrary-book-card> 
 
-Look at [4] for some good example of polymer components.
+Look at [6] for some good example of polymer components.
 
 
-[1]: http://anandology.com/tmp/ol-card-sample.png
-[2]: https://openlibrary.org/dev/docs/api/books
-[3]: https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&details=true [4]: https://github.com/ds82/polymer-github-card
+[3]: http://anandology.com/tmp/ol-card-sample.png
+[4]: https://openlibrary.org/dev/docs/api/books
+[5]: https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&details=true 
+[6]: https://github.com/ds82/polymer-github-card
