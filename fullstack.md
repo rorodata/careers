@@ -33,4 +33,4 @@ The history page should show all the commits on the repo or a subdirectory insid
 
 For simplicity, limit the implmentation only to the master branch.
 
-Make sure that you support pagination whereever the number of entries are more than 50.
+Make sure that you support pagination wherever the number of entries are more than 50.
