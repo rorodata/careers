@@ -3,9 +3,9 @@
 ##### [More details ...](https://angel.co/rorodata/jobs/163154-full-stack-engineer-python)
 
 
-## **Problem 1: Reimagine Github**
+## **Problem 1: Reimagine [Github](https://github.com)**
 
-Implement a webapp to reimagine github using GitHub API. The suggested technologies are Flask + Jinja templates + Bootstrap CSS.
+Implement a webapp to reimagine github using [GitHub API](https://developer.github.com/v3/). The suggested technologies are Flask + Jinja templates + Bootstrap CSS.
 
 The webapp should contain the following pages.
 
@@ -25,7 +25,12 @@ For example:
 
 For simplicity, limit the implmentation only to the master branch.
 
-**History Page**
+Deliverables:
+* Deployed webapp - we recommend heroku but you can choose any platform
+* Unit tests
+* Code repo
+
+**Bonus - History Page**
 
 The repo pages should have link to the corresponding history pages.
 
