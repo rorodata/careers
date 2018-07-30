@@ -1,6 +1,7 @@
-# Problem Set for JS Engineer Intern
-### Solve all the problems below and write back to us with your solution repo raghav [at] rorodata [dot] com
-##### More details [here](https://angel.co/rorodata/jobs/234424-javascript-frontend-intern)
+# Problem Set for Full Stack Engineer
+### Solve the problem below and write back to us with your solution repo raghav [at] rorodata [dot] com
+##### [More details ...](https://angel.co/rorodata/jobs/163154-full-stack-engineer-python)
+
 
 ## **Problem 1: Reimagine Github**
 
