@@ -26,7 +26,7 @@ For example:
 For simplicity, limit the implmentation only to the master branch.
 
 Deliverables:
-* Deployed webapp - we recommend heroku but you can choose any platform
+* Deployed webapp - we recommend digital ocean or heroku but you can choose any platform
 * Unit tests
 * Code repo
 
