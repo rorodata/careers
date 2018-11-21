@@ -24,7 +24,7 @@ For simplicity, limit the implmentation only to the master branch.
 
 ### Deliverables:
 
-Deployed webapp - we recommend [!netlify](https://netlify.com) but you can choose any platform
+Deployed webapp - we recommend [netlify](https://netlify.com) but you can choose any platform
 Unit tests
 Code repo
 
