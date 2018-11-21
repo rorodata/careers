@@ -3,7 +3,7 @@
 
 ## **Problem 1: Reimagine Github**
 
-Implement a webapp to reimagine github using GitHub API. The suggested technologies are VueJS + Bootstrap CSS.
+Implement a webapp to reimagine github using GitHub API. The suggested technologies are VueJS + Bootstrap CSS or TailwindCSS or any CSS you prefer.
 
 The webapp should contain the following pages.
 
