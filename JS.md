@@ -31,9 +31,6 @@ Code repo
 ### Bonus - History Page
 
 The repo pages should have link to the corresponding history pages.
-
 The history page should show all the commits on the repo or a subdirectory inside it.
-
 For simplicity, limit the implmentation only to the master branch.
-
 Make sure that you support pagination wherever the number of entries are more than 50.
