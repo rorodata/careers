@@ -8,7 +8,7 @@ Our objectives: Data scientists rely on us to solve harder engineering problems
 
 If you love building a professional devtools that millions of data scientists will come to rely on to build vertical AI, we would love to have you onboard. We are looking for someone who can help us with devops and backend system design.
 
-
+We encourage you to read this advice on [joining a startup](https://github.com/rorodata/problemsets/blob/master/joining-a-startup-motivation.md) before going any further -- 2 min read
 
 
 # Problem Sets
