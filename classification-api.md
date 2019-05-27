@@ -1,5 +1,5 @@
 ## [Dataset](https://d1p17r2m4rzlbo.cloudfront.net/wp-content/uploads/2016/03/Company-Categorization-DFE.csv)
-This is dataset from FigureEight in which business names are matched with URLs/homepages for the named businesses. The URL are categorized into the following industries:
+This is dataset from FigureEight in which business names and industries are matched with URLs/homepages for the named businesses. The dataset supports following industry classes:
 
 1. Automotive
 2. Consumer Packaged Goods
