@@ -2,7 +2,7 @@
 Solve the problem below and write back to us with your solution repo and link to the deployed app raghav [at] rorodata [dot] com [More details ...](https://angel.co/rorodata/jobs/163154-full-stack-engineer-python)
 
 
-## **Problem 1: Reimagine [Github](https://github.com)**
+## **Reimagine [Github](https://github.com)**
 
 Implement a webapp to reimagine github using [GitHub API](https://developer.github.com/v3/). The suggested technologies are Flask + Jinja templates + Bootstrap CSS.
 
