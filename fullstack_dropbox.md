@@ -1,10 +1,7 @@
 # Problem Set for Full Stack Engineer
-### Solve the problem below and write back to us with your solution repo and link to the deployed app raghav [at] rorodata [dot] com
-##### [More details](https://angel.co/rorodata/jobs/163154-full-stack-engineer-python)
+Solve the problem below and write back to us with your solution repo and link to the deployed app raghav [at] rorodata [dot] com [More details](https://angel.co/rorodata/jobs/163154-full-stack-engineer-python)
 
-Solve the problem below and write back to us with your solution repo and link to the deployed app raghav [at] rorodata [dot] com
-
-File upload service with Dropbox
+## File upload service with Dropbox
 Build a webapp for data upload using the [Dropbox API](https://www.dropbox.com/developers/documentation/python#overview). The suggested technologies are Flask + Jinja templates + Bootstrap CSS.
 
 The user should be able to do the following
@@ -17,17 +14,17 @@ Note: Data from new files is appended to the existing data. The appended data ca
 
 The webapp should contain the following pages.
 
-**Data page**
+### Data page
 
 This page should show the data in tabular form with pagination
 
-**History page**
+### History page
 
 This page will have table of all files pulled from dropbox and appended to the base data
 
 For simplicity support on one type of file error tracking - mis-match of columns
 
-**Deliverables**
+### Deliverables
 
 1. Deployed webapp - we recommend digital ocean or heroku but you can choose any platform
 2. Unit tests
