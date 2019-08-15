@@ -1,4 +1,4 @@
-Problem Set for Full Stack Engineer
+**Problem Set for Full Stack Engineer**
 Solve the problem below and write back to us with your solution repo and link to the deployed app raghav [at] rorodata [dot] com
 
 File upload service with Dropbox
@@ -14,18 +14,18 @@ Note: Data from new files is appended to the existing data. The appended data ca
 
 The webapp should contain the following pages.
 
-Data page
+**Data page**
 
 This page should show the data in tabular form with pagination
 
-History page
+**History page**
 
 This page will have table of all files pulled from dropbox and appended to the base data
 
 For simplicity support on one type of file error tracking - mis-match of columns
 
-Deliverables:
+**Deliverables**
 
-Deployed webapp - we recommend digital ocean or heroku but you can choose any platform
-Unit tests
-Code repo
+1. Deployed webapp - we recommend digital ocean or heroku but you can choose any platform
+2. Unit tests
+3. Code repo
