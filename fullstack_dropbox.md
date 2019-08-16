@@ -5,12 +5,14 @@ Solve the problem below and write back to us with your solution repo and link to
 Build a webapp for data upload using the [Dropbox API](https://www.dropbox.com/developers/documentation/python#overview). The suggested technologies are Flask + Jinja templates + Bootstrap CSS.
 
 The user should be able to do the following
-1. Upload csv files in dropbox folder
+1. Upload csv files in dropbox folder. The server polls dropbox for any new file uploaded.
 2. View the file data as a table (with pagination) in a web browser
 3. View the history of all the files uploaded to the app
 4. View record of errors in file upload. Error-type Supported: mis-match of columns i.e if the columns files do not match then upload is rejected
 
-Note: Data from new files is appended to the existing data. The appended data can be stored in S3/CloudStore
+Note: 
+- Data from new files is appended to the existing data. The appended data can be stored in S3/CloudStore
+- File format is [here](https://github.com/rorodata/careers/blob/master/data_file.csv.zip)
 
 The webapp should contain the following pages.
 
