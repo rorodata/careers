@@ -1,5 +1,5 @@
 # Problem Set for Python Engineer Intern
-### Solve both and write back to us with your solution repo raghav [at] rorodata [dot] com
+### Solve both and write back to us with your solution repo
 
 ## **Problem 1**
 
