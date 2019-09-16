@@ -1,10 +1,10 @@
-# Problem Set for Full Stack Engineer
+# Problem Set for Frontend Engineer
 Solve the problem below and write back to us with your solution repo and link to the deployed app raghav [at] rorodata [dot] com [More details on the position](https://angel.co/rorodata/jobs/163154-full-stack-engineer-python)
 
 
 ## **Reimagine [Github](https://github.com)**
 
-Implement a webapp to reimagine github using [GitHub API](https://developer.github.com/v3/). The suggested technologies are Flask + Jinja templates + Bootstrap CSS.
+Implement a webapp to reimagine github using [GitHub API](https://developer.github.com/v3/). The suggested technology is VueJS.
 
 The webapp should contain the following pages.
 
@@ -25,7 +25,7 @@ For example:
 For simplicity, limit the implmentation only to the master branch.
 
 Deliverables:
-* Deployed webapp - we recommend digital ocean or heroku but you can choose any platform
+* Deployed webapp - we recommend Ziet or Netlify but you can choose any platform of your liking
 * Unit tests
 * Code repo
 
