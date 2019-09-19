@@ -13,4 +13,4 @@ Deliverables:
 
 - README explaining the RESTful API
 - Implementation of the API in Python/Go
-- Deploy the API on Heroku/Digital Ocean/GCP
+- Deploy the API on Heroku/Digital Ocean/GCP and send us the URL endpoint as well
