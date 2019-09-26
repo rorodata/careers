@@ -8,9 +8,13 @@ Implement a webapp to reimagine github using [GitHub API](https://developer.gith
 
 The webapp should contain the following pages.
 
+**Login page**
+
+Implement simple OAuth based authentication.
+
 **User / Org page**
 
-This page should list the profile picture and all the public repos with title and description.
+Once logged in prompt the visitor for username. On submit display the user profile picture and all the users public repos with title and description.
 
 **Repo page**
 
