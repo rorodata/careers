@@ -8,13 +8,10 @@ Implement a webapp to reimagine github using [GitHub API](https://developer.gith
 
 The webapp should contain the following pages.
 
-**Login page**
-
-Implement simple OAuth based authentication.
 
 **User / Org page**
 
-Once logged in prompt the visitor for username. On submit display the user profile picture and all the users public repos with title and description.
+Once logged in prompt the visitor for a username or organization's name whose repo we want to inspect. On submit display the user profile picture and all the users public repos with title and description.
 
 **Repo page**
 
@@ -33,7 +30,9 @@ Deliverables:
 * Unit tests
 * Code repo
 
-**Bonus - History Page**
+**Bonus Page** 
+
+**History Page**
 
 The repo pages should have link to the corresponding history pages.
 
@@ -42,3 +41,7 @@ The history page should show all the commits on the repo or a subdirectory insid
 For simplicity, limit the implmentation only to the master branch.
 
 Make sure that you support pagination wherever the number of entries are more than 50.
+
+**Login page**
+
+Implement simple OAuth based authentication.
