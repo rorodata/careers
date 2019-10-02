@@ -25,3 +25,8 @@ machines, except actually creating the machines in the cloud.
 - Test cases
 - A README explaining the API instructions about how to run it locally
 - URL of the application deployed to Heroku/Digital Ocean/GCP/AWS
+
+
+### What are we looking for?
+- Problem solving approach
+- API design and it's completeness
