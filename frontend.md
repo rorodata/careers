@@ -8,20 +8,17 @@ Implement a webapp to reimagine github using [GitHub API](https://developer.gith
 
 The webapp should contain the following pages.
 
-
-**User / Org page**
-
-Once logged in prompt the visitor for a username or organization's name whose repo we want to inspect. On submit display the user profile picture and all the users public repos with title and description.
-
 **Repo page**
 
-Each repo page should show the list of files in that repo and allow navigating though directories and download files.
+The home page should have list of top repos. Each repo page should show the list of files in that repo and allow navigating though directories and download files.
 
 For example:
 
 * '/test-user/sample-repo' will list the contents of the repo
 * '/test-user/sample-repo/Readme.txt' will show the contents of the file `Readme.txt`
 * '/test-user/sample-repo/src/' will list the contents of the directory `src/` in the repo
+
+User should be able to input a username to view repos of a specific user or org.
 
 For simplicity, limit the implmentation only to the master branch.
 
