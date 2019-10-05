@@ -9,7 +9,7 @@ The webapp should contain the following pages.
 
 **User / Org page**
 
-This page should list the profile picture and all the public repos with title and description. The user should be able to input a username to view repo of a particular user or organization
+Ask the site visitor to input a github handle(username) they wish to explore. The response page should list the profile picture and all the public repos with title and description for that specific handle.
 
 **Repo page**
 
