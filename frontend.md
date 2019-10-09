@@ -7,9 +7,9 @@ Implement a webapp to reimagine github using [GitHub API](https://developer.gith
 
 The webapp should contain the following pages.
 
-**User / Org page**
+**Landing page**
 
-Ask the site visitor to input a github handle(username) they wish to explore. The response page should list the profile picture and all the public repos with title and description for that specific handle.
+Ask the site visitor to input a github handle(username) they wish to explore. The visitor should be then taken to the Repo Page (see below) that has the profile picture of the user and all the user's public repos with title and description. Details of the repo page are below.
 
 **Repo page**
 
@@ -39,7 +39,3 @@ The history page should show all the commits on the repo or a subdirectory insid
 For simplicity, limit the implmentation only to the master branch.
 
 Make sure that you support pagination wherever the number of entries are more than 50.
-
-**Login page**
-
-Implement simple OAuth based authentication.
