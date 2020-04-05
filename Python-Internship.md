@@ -61,7 +61,7 @@ $ curl 'http://localhost:5000/repos?q=covid19&language=python'
     "repos": [
         {
             "name": "daenuprobst/covid19-cases-switzerland",
-            "html_url": "https://github.com/daenuprobst/covid19-cases-switzerland",
+            "url": "https://github.com/daenuprobst/covid19-cases-switzerland",
             "description": "Data from BAG Tweets made useful.",
             "language": "Python"
         },
@@ -69,3 +69,4 @@ $ curl 'http://localhost:5000/repos?q=covid19&language=python'
     ]
 }
 ```
+
