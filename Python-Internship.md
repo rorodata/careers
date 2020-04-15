@@ -70,3 +70,9 @@ $ curl 'http://localhost:5000/repos?q=covid19&language=python'
 }
 ```
 
+You are expected to consume the github API directly using urllib or requests library, and not use any other third-party library that exposes the github API.
+
+Deliverables:
+- README with usage instructions
+- Implementation of the API in Python
+- Deploy the API on Heroku/Digital Ocean/AWS and send us the URL endpoint as well
