@@ -69,7 +69,7 @@ $ curl https://openlibrary.org/search.json?q=tom+sawyer
 }
 ```
 
-The `title`, `author_name` and `edition_count` fields are self-explainatory. The `cover_edition_key` can be used to construct the URL of the cover. The URL will be `https://covers.openlibrary/org/b/olid/${cover_edition_key}-S.jpg`.
+The `title`, `author_name` and `edition_count` fields are self-explainatory. The `cover_edition_key` can be used to construct the URL of the cover. The URL will be `https://covers.openlibrary/org/b/olid/${cover_i}-S.jpg`.
 
 If the `status` is `open` in `availability`, then the book is readable online and the "Read Online" button should link to `https://archive.org/stream/${identifier}`.
 
