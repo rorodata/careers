@@ -4,31 +4,76 @@
 
 ## **Problem 1: Reimagine Github User Profile**
 
-Reimagine the profile page of a GitHub user. Sample profile [1]
-Output:
-- Design approach
-- HTML/CSS/JS Wireframes
+Implement a vue.js application to display profiles of a Github user. 
 
-Note: Do connect with developers in your network, if that helps in research or feedback on what changes they desire in profile page
+The application will have two pages.
 
-## **Problem 2: Replicate Heroku Metrics Page**
+The home page of the application will have a textbox to enter the username. On submit, it should render the profile containing the following details:
+- name of the user
+- picture of the user
+- list of repositories of the user with descriptions.
 
-Create a HTML-CSS-JS mockup for the Heroku [2] metrics page. Cover as many details in the charts as possible.
-Output: Folder with html css and js files
+Deliverables:
+- Link to the github repo
+- URL of the deployed application (you can deploy to Netlify/Heroku)
 
-Bonus: If you have time, tell us how would you have designed this page differently?
+## **Problem 2: Reimagine Open Library search page
 
-[1]: https://github.com/anandology [2]: https://heroku.com/
+Build a simple vue.js application to search for books in [Open Library][ol] using the [Open Library Search API][search-api].
 
-## **Problem 3: Build a Component Vue/Polymer**
+[ol]: https://openlibrary.org/
+[search-api]: https://openlibrary.org/dev/docs/api/search
 
-Build a vue/polymer component with name openlibrary-book-card to display book cover and book details from Open Libary. It should display a card something like [3], and you can use the Open Library API [4],[5].
+The home page of the application should show a textbox for searching and on submit, it should make an API request and render the results. Each result should include the following things:
 
-Inside HTML, you should be to get that just by the following snippet. 
+* cover of the book
+* title of the book
+* number of editions
+* "Read Online" button if the book can be read online
 
-<openlibrary-book-card isbn="0451526538"></openlibrary-book-card> 
+Here are the sample API resposne:
 
-Look at [6] for some good example of polymer components.
+```
+$ curl https://openlibrary.org/search.json?q=tom+sawyer
+{
+    "start": 0,
+    "num_found": 366,
+    "numFound": 366,
+    "docs": [
+        {
+            "title": "Tom Sawyer",
+            "author_name": [
+                "Tim Mucci",
+                "Mark Twain"
+            ],
+            "cover_edition_key": "OL25615999M",
+            "edition_count": 4,
+            "availability": {
+                "status": "error"
+            }  
+        },
+        {
+            "title": "The Adventures of Tom Sawyer",
+            "author_name": [
+                "Mark Twain"
+            ],
+            "cover_edition_key": "OL23269295M",
+            "edition_count": 416,
+            "availability": {
+                "status": "open",
+                "identifier": "advtomsawyer00twairich"
+            }
+        },
+        ...
+    ]
+}
+```
+
+The `title`, `author_name` and `edition_count` fields are self-explainatory. The `cover_edition_key` can be used to construct the URL of the cover. The URL will be `https://covers.openlibrary/org/b/olid/${cover_edition_key}-S.jpg`.
+
+If the `status` is `open` in `availability`, then the book is readable online and the "Read Online" button should link to `https://archive.org/stream/${identifier}`.
 
 
-[3]: http://anandology.com/tmp/ol-card-sample.png [4]: https://openlibrary.org/dev/docs/api/books [5]: https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&details=true [6]: https://github.com/ds82/polymer-github-card
+Deliverables:
+- Link to the github repo
+- URL of the deployed application (you can deploy to Netlify/Heroku)
